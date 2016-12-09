@@ -6,10 +6,15 @@
 			<link rel="stylesheet" href="css/base.css" />
 			<link rel="stylesheet" href="css/chanel.css" />
 			<link rel="stylesheet" href="css/topbar.css" />
+			<link rel="stylesheet" href="css/pro-detail.css" />
+			<link rel="stylesheet" href="css/sidenav.css"/>
+			<link rel="stylesheet" href="css/footer.css" />
 		</head>
 	<body>
 		<!--头部-->
-		<div class="topbar"></div>
+		<div class="topbar">
+			<div class="head"></div>
+		</div>
 		<!--产品购买-->
 		<div id="main" class="product-detail">
 			<div class="page-maincontent">
@@ -131,25 +136,25 @@
 								<div class="item-title">颜色：</div>
 								<div class="detail">
 									<ul class="clearfix">
-										<li class="spe-attr">
+										<li class="spe-attr" data-gid="10001">
 											<a href="#">
 												<img src="images/l1-1.jpg" title="#46 LA MALICIEUSE" alt="#46 LA MALICIEUSE"/>
 											</a>
-											<i class="selected"></i>
+											
 										</li>
-										<li class="spe-attr">
+										<li class="spe-attr" data-gid="10002">
 											<a href="#">
 												<img src="images/l1-1.jpg" title="#46 LA MALICIEUSE" alt="#46 LA MALICIEUSE"/>
 											</a>
-											<i></i>
+											<i class="color"></i>
 										</li>
-										<li class="spe-attr">
+										<li class="spe-attr" data-gid="10003">
 											<a href="#">
 												<img src="images/l1-1.jpg" title="#46 LA MALICIEUSE" alt="#46 LA MALICIEUSE"/>
 											</a>
-											<i></i>
+											<i class="color"></i>
 										</li>
-										<li class="spec-attr2">
+										<li class="spec-attr tag">
 											<a href="#">
 												<span>34 LA RAFFINEE</span>
 											</a>
@@ -159,17 +164,18 @@
 							</li>
 							<li class="item product-amount">
 								<div class="item-title">数量：</div>
-								<div class="detail">
-									<span class="item amount-decrease">-</span>
-									<input class="item amount-input"  type="text" />
-									<span class="item amount-increase">+</span>
+								<div class="detail amount-option">
+									<a href="javascript:;" class="item amount-decrease">-</a>
+									<input class="item amount-input"  type="text"  value="1"/>
+									<a href="javascript:;" class="item amount-increase">+</a>
 								</div>
+								<div class="stock">库存&nbsp;<span class="amount-stock">1987&nbsp;件</span></div>
 							</li>
 							<li class="item product-addcart">
 								
 								<div class="detail">
-									<div class="addcart cart">加入购物车</div>
-									<div class="addcart scan">
+									<div class="add-button addcart">加入购物车</div>
+									<div class="add-button scan">
 										<span class="scan-button">
 											<span>扫扫即加入购物车</span>
 											<span class="icon-wrapper">
@@ -212,12 +218,17 @@
 				</div>
 			</div>
 		</div>
+		<!--产品详情-->
+		<div id="pro-detail"></div>
+		<!--回到顶部-->
+		<div class="side-nav"></div>
 		<!--尾部-->
 		<div class="footer"></div>
 		<script type="text/javascript" src="js/jquery.1.11.3.min.js" ></script>
+		<script type="text/javascript" src="js/jquery.cookie.js" ></script>
 		<script type="text/javascript" src="js/chanel.js" ></script>
 		<script type="text/javascript" src="js/topbar.js" ></script>
-		
+		<script type="text/javascript" src="js/sidenav.js" ></script>
 		
 	</body>
 </html>

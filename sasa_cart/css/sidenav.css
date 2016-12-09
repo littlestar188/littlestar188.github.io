@@ -1,0 +1,152 @@
+/*侧边导航 回到顶部等*/
+.side-nav{
+	position:fixed;
+	z-index:0;
+	right:0;
+	bottom:0;
+	width:38px;
+	height:690px;
+	background-color:#4c4c4c;
+	color:#fff;
+}
+/*小图标初始设置*/
+.side-nav .icon{
+	display:block;
+	margin:10px;
+	width:18px;
+	height:18px;	
+	background:url(../images/iconmap.png) no-repeat;
+
+}
+/*经过 效果*/
+.nav-item:hover{
+	-opacity:0.4
+}
+.side-nav .icon:hover{
+	cursor:pointer;
+}
+/*需知*/
+.side-nav .shop{
+	width:100%;
+}
+.side-nav p{
+	padding:0 12px;	
+	line-height:18px;
+	text-align:center;	
+}
+.side-nav .shop p{
+	padding-bottom:35px;	
+	margin-top:130px;
+}
+.side-nav .shop .icon{
+	margin-bottom:20px;
+	background-position:0 0;
+}
+/*加入购物车*/
+.side-nav .cart{
+	width:100%;
+	height:120px;
+	border-top:1px solid #666;
+	border-bottom:1px solid #666;
+}
+.side-nav .cart .icon{
+	background-position:0 -20px;
+}
+.side-nav .cart .num{
+	text-align:center;
+	display:block;
+	width:17px;
+	height:17px;
+	line-height:17px;
+	border-radius:50%;
+	margin-left:11px;
+	background-color:#ec3e7d;
+}
+/*小图标*/
+.side-nav .icons-wrap .icon{
+	background-position:0 -42px;
+}
+.side-nav .history .icon{
+	background-position:0 -62px;
+}	
+.side-nav .service .icon{
+	background-position:-20px 0;
+}
+.side-nav .null .icon{
+	background-position:-20px -60px;
+}
+.side-nav .sasa .icon{
+	background-position:-19px -21px;
+}
+/*回到顶部*/
+.side-nav .backup{
+	text-align:center;
+	position:relative;
+	display:none;
+	cursor:pointer;
+}
+.side-nav .backup .icon{
+	position:relative;
+	top:16px;;
+	left:5px;
+	background-position:-20px -40px;
+}
+
+/*定位相对于sidenav*/
+
+/*出现我的收藏等*/
+.side-nav .box{
+	text-align:center;
+	display:none;
+	position:absolute;
+	bottom:84px;
+	width:90px;
+	height:18px;
+	padding:10px;
+	right:38px;
+	background-color:#ec3e7d;
+	
+}
+/*定位相对于.box*/
+/*右三角形*/
+.side-nav .arrow-right{
+	position:absolute;
+	top:10px;
+	right:-10px;
+	display:block;
+	width:0; 
+    height:0; 
+    border-top:10px solid transparent;
+    border-bottom:10px solid transparent;
+    border-left: 10px solid #ec3e7d;
+}
+.side-nav .shop .box{
+	top:310px;
+}
+.side-nav .cart{
+	cursor:pointer;
+}
+.side-nav .cart .box{
+	text-align:left;
+	width:100px;
+	height:36px;
+	top:400px;
+}
+.side-nav .collect .box{
+	bottom:174px;
+}
+.side-nav .history .box{
+	bottom:140px;
+}
+.side-nav .sasa .box .arrow-right{
+	border-left: 10px solid #fff;
+	top:55px;
+}
+.side-nav .sasa .box{
+	bottom:-8px;
+	width:97px;
+	height:125px;
+	padding:10px;
+	background-color:#fff;
+	
+}

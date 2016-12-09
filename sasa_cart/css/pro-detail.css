@@ -1,0 +1,281 @@
+#pro-detail {
+	overflow: hidden;
+	background-color:#ebebeb;
+	padding:30px 86px 83px 86px;
+}
+/*浏览记录*/
+#pro-detail .history{
+	width:253px;
+	background-color:#fff;
+}
+#pro-detail .title{
+	height:50px;
+	line-height:50px;
+	text-align:left;
+	border-bottom:1px solid #ebebeb;
+}
+#pro-detail .title .line{
+	display:inline-block;
+	width:5px;
+	height:50px;
+	background-color:#c69a62;
+	margin-right:12px;
+}
+#pro-detail .title .title-con{
+	position:relative;
+	display:inline-block;
+	top:-16px;
+	font-size:16px;	
+}
+#pro-detail .his-list{
+	overflow:hidden;
+}
+#pro-detail .his-list .list-item{
+	padding:20px 10px;
+	height:69px;
+	border-bottom:1px dashed #ebebeb;
+	background-color:#fff;
+}
+#pro-detail .his-list .list-item img{
+	float:left;
+	width:69px;
+	height:69px;
+	margin-right:18px;
+}
+
+#pro-detail .his-list .list-item .pro-name{
+	color:#3e3e3e;
+}
+#pro-detail .his-list .list-item .pro-price{
+	font-size:12px;
+	color:#ec3e7d;
+}
+#pro-detail .his-list .list-item .pro-price del{
+	font-size:10px;
+	color:#959595;
+}
+/*商品详情*/
+#pro-detail .decoration-wrap{
+	width:810px;	
+}
+#pro-detail .decoration-wrap .dec-nav{
+	width:810px;
+	height:50px;
+	line-height:50px;
+	background-color:#fff;
+}
+#pro-detail .decoration-wrap .dec-nav ul li{
+	float:left;
+	padding:0 27px;
+	font-size:16px;
+}
+#pro-detail .decoration-wrap .dec-nav ul li:hover{
+	border-bottom:3px solid #c69a62;
+}
+#pro-detail .decoration-wrap .dec-nav .rmb{
+	display:inline-block;
+	width:70px;
+	height:50px;
+	line-height:50px;
+	padding:0 65px;
+	text-align:center;
+	font-weight:bold;
+	font-size:22px;
+	color:#ec3e7d;
+}
+#pro-detail .decoration-wrap .dec-nav .shopping{
+	position:relative;
+	top:-2px;
+	display:inline-block;
+	width:80px;
+	height:50px;
+	line-height:50px;
+	padding:0 20px;
+	text-align:center;
+	font-size:16px;
+	color:#fff;
+	background-color:#ec3e7d;
+	cursor:pointer;
+}
+#pro-detail .decoration-wrap .decoration-item{
+	overflow: hidden;
+	position: relative;
+	margin-top:20px;
+	padding-bottom:40px;
+	width:810px;
+	background-color:#fff;
+}
+#pro-detail .decoration-wrap .decoration-item .title.item-title {
+	position:relative;
+	z-index:1;	
+	width:205px; 
+	height:32px;
+	line-height:32px;
+	padding:22px 10px 22px 0;
+	border:0;
+	background-color:#fff;
+}
+#pro-detail .decoration-wrap .decoration-item .decoration{
+	position:absolute;
+	top:38px;
+	right:0;
+	width:810px;;
+	height:1px;
+	line-height:32px;
+	background-color:#ec3e7d;
+}
+#pro-detail .decoration-wrap .decoration-item .item-title .line{
+	background-color:#ec3e7d;
+	height:32px;
+	line-height:32px;
+}
+#pro-detail .decoration-wrap .decoration-item .item-title .title-con{
+	position: relative;
+	top:-8px;
+	font-size:20px;
+
+}
+#pro-detail .decoration-wrap .decoration-item .item-title .title-con .eng{
+	font-size:24px;
+	color:#ec3e7d;
+}
+/*商品参数*/
+#pro-detail .decoration-wrap .decoration-item.con-specs table{
+	padding:17px;
+}
+#pro-detail .decoration-wrap .decoration-item.con-specs table td{
+	height:34px;
+	line-height:34px;
+	padding:0 30px;
+}
+#pro-detail .decoration .decoration-item.con-specs table td.th{
+	margin-right:16px;
+	color:#666;
+}
+#pro-detail .decoration-item .content{
+	margin:17px 30px;
+}
+/*商品详情*/
+#pro-detail .decoration-item .content:nth-child(1) .content-con strong span{
+	font-size: 10pt; 
+	font-family: SimSun; 
+	color: rgb(62, 62, 62); 
+}
+/*用户评价*/
+/*头部*/
+#pro-detail .decoration-item .comment-list{
+	overflow: hidden;
+	padding:0 38px;
+}
+#pro-detail .decoration-item .comment-list .comment-title{
+	overflow: hidden;
+	height:75px;
+	color:#db3f7e;
+}
+#pro-detail .decoration-item .comment-list .comment-title .sorce{
+	height:100%;
+	line-height:75px;
+	font-size:36px;	
+}
+/*用户信息 左边*/
+#pro-detail .decoration-item .comment-list .comment-title .star img{
+	width:21px;
+	height:20px;
+}
+.content-list{
+	overflow: hidden;
+	padding:20px 0;
+}
+.content-list li.comment-item{
+	overflow: hidden;
+	margin-bottom:40px;
+}
+.content-list .member{
+	width:145px;
+}
+.content-list .member .member-avator{
+	text-align:center;
+	margin-left:-88px;
+}
+/*评价区*/
+.content-list .member-discuss{
+	position:relative;
+	width:480px;
+	height:126px;
+	padding:20px 24px;
+	background-color:#f2f2f2;
+}
+/*三角形*/
+/*相对.member-discuss*/
+.content-list .member-discuss .point-left{
+	position:absolute;
+	top:10px;
+	left:-10px;
+	display:block;
+	width:0; 
+    height:0; 
+    border-top:10px solid transparent;
+    border-bottom:10px solid transparent;
+    border-right: 10px solid #f2f2f2;
+}
+.content-list .member-discuss .discuss-lable{
+	height:32px;
+	line-height:32px;
+	border-bottom:1px solid #ec3e7d;
+	margin-bottom:16px;
+}
+.content-list .member-discuss .discuss-lable .comlst-title{
+	-overflow: hidden;
+	-text-overflow:ellipsis;
+	-white-space:nowrap;
+	display:inline-block;
+	color:#ec3e7d;
+	font-size:18px;
+	width:210px;
+	margin-right:24px;
+}
+.content-list .member-discuss .discuss-lable .stars img{
+	width:16px;
+	height:15px;
+}
+.content-list .member-discuss .discuss-content{
+	height:24px;
+	line-height:24px;
+}
+/*发布时间*/
+.content-list .member-discuss .discuss-time{
+	height:40px;
+	line-height:40px;
+	color:#bebebe;
+}
+
+	
+/*分页*/
+.page{
+	margin:10px;
+	height:20px;
+    text-align: right;
+    line-height: 20px;
+    font-size: 12px;
+    padding: 20px 0;
+}
+.page span{
+	display:block;
+}
+.page span a{
+	text-align:center;
+	display: inline-block;
+	width:22px;
+	height:22px;
+	line-height:22px;
+	border-radius: 50%;
+	border:1px solid #ddd;
+}
+.page span a.nomove{
+	background-color:#f3f3f3;
+	cursor: not-allowed;
+}
+.page span a.active{
+	border:1px solid #ec3e7d;
+	color:#ec3e7d;
+}

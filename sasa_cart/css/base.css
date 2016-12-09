@@ -3,10 +3,10 @@
 html,
 body,
 div,
-h1,h2,h3,
+h1,h2,h3,h4,
 ul,li,
 dl,dt,dd,
-p,
+p,b,
 img,
 input {
 	margin: 0;
@@ -25,7 +25,10 @@ body {
 	font-family: "microsoft yahei";
 	color:#3e3e3e;
 }
-
+input{
+	outline: none;
+	border:0;
+}
 a {
 	text-decoration: none;
 	color: #666;
@@ -34,7 +37,9 @@ a {
 li {
 	list-style: none;
 }
-
+i{
+	text-decoration: none;
+}
 .fl{
 	float:left;
 }

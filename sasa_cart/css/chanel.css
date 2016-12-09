@@ -261,12 +261,10 @@ body{
 .product-buy ul .product-color .detail  ul .spe-attr:hover{
 	border:3px solid #cb9966;
 }
-.product-buy ul .product-color .detail  ul .spe-attr:hover .selected{
+.sel{
 	position:absolute;
-	right:-3px;
-	bottom:-3px;;
-	width:22px;
-	height:22px;
+	right:0px;
+	bottom:0px;;
 	background:url(../images/icon_selected.png)  no-repeat;
 }
 .product-buy ul .product-color .detail  ul .spe-attr{
@@ -284,13 +282,12 @@ body{
 	height:40px;
 	border-radius: 24px;
 }
-.product-buy ul .product-color .detail .spec-attr2 a{
+.product-buy ul .product-color .detail .tag a{
 	display:block;
 	height:26px;
 	width:120px;
 	line-height:26px;
 	text-align:center;
-	margin-left:6px;
 	border:1px solid #ccc;
 	background-color:#f2f2f2;
 }
@@ -316,28 +313,39 @@ body{
 	cursor:pointer;
 }
 .product-buy ul .product-amount .detail .amount-input{
+	display: inline-block;
 	outline:none;
 	float:left;
 	border:0;
 	width:30px;
 	height:20px;
+	text-align:center;
 	border-top:1px solid #f2f2f2;
 	border-bottom:1px solid #f2f2f2;	
+}
+/*库存*/
+.product-buy ul .product-amount .stock{
+	display:inline-block;
+	position:relative;
+	top:-8px;
+	left:10px;
+	height:20px;
+	line-height:20px;
 }
 /*加入购物车*/
 .product-buy ul .product-addcart{
 	padding-top:14px;
 }
-.product-buy ul .product-addcart .addcart{
+.product-buy ul .product-addcart .add-button{
 	float:left;	
 	height:50px;
 	line-height:50px;	
 	text-align:center;	
 }
-.product-buy ul .product-addcart .addcart:hover{
+.product-buy ul .product-addcart .add-button:hover{
 	cursor:pointer;
 }
-.product-buy ul .product-addcart .addcart.cart{
+.product-buy ul .product-addcart .add-button.addcart{
 	width:220px;
 	background-color:#ec3e7d;
 	margin-right:20px;
@@ -347,23 +355,23 @@ body{
 .product-buy{
 	position:relative;
 }
-.product-buy ul .product-addcart .addcart.scan{
+.product-buy ul .product-addcart .add-button.scan{
 	width:200px;
 	border:1px solid #f2f2f2;
 }
-.product-buy ul .product-addcart .addcart.scan .icon-wrapper{
+.product-buy ul .product-addcart .add-button.scan .icon-wrapper{
 	position:relative;
 }
 
-.product-buy ul .product-addcart .addcart.scan i{
+.product-buy ul .product-addcart .add-button.scan i{
 	display:inline-block;
 	margin:0 4px;
 }
-.product-buy ul .product-addcart .addcart.scan .qrcode{
+.product-buy ul .product-addcart .add-button.scan .qrcode{
 	height:20px;
 	width:20px;	
 }
-.product-buy ul .product-addcart .addcart.scan .iconfont{
+.product-buy ul .product-addcart .add-button.scan .iconfont{
 	position:absolute;
 	top:-20px;
 	right:-20px;
@@ -371,13 +379,15 @@ body{
 	width:20px;
 	
 }
-.product-buy ul .product-addcart .addcart.scan .code{
+.product-buy ul .product-addcart .add-button.scan .code{
 	position:absolute;
 	right:30px;
 	bottom:40px;
 	display:none;
 }
-
+.product-buy ul .product-addcart .add-button.scan:hover .code{
+	display:block;
+}
 /*分享*/
 .product-share{
 	padding-top:14px;

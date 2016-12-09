@@ -1,37 +1,35 @@
 {
 	"10001": {
 		"goods-id": 10001,
-		"goods-name": "家居服浴衣睡袍睡衣浴袍男女秋冬季加厚法兰绒长袖可爱珊瑚绒情侣",
-		"goods-price": 129.00,
-		"goods-sale": 49.98,
-		"size": {
-			"1000101": "155(S)",
-			"1000102": "160(M)",
-			"1000103": "165(L)",
-			"1000104": "170(XL)"
-		},
-		"color": {
-			"id": "10001001",
-			"small-pic": "img/color.png",
-			"large-pic": "img/color-large.png",
-			"color-type": "定位花睡袍-女-薰衣草"
-		},
-		"stock": 9861
+		"goods-img":"images/p1.jpg",
+		"goods-name": "香奈儿炫亮魅力唇膏丝绒系列",
+		"goods-dec": "蕴含透明质酸和甘油，能强效保湿肌肤，并收敛和恢复肌肤弹性。另含多种天然植物精华，可促进血液循环",
+		"goods-style":"3.5 克 #35",
+		"goods-price": 547.00,
+		"goods-sale": 247.00,		
+		"discount": 5.5,
+		"stock":1987
 	},
 	"10002": {
-		"goods-id": 10001,
-		"goods-name": "家居服浴衣睡袍睡衣浴袍男女秋冬季加厚法兰绒长袖可爱珊瑚绒情侣",
-		"goods-price": 129.00,
-		"goods-sale": 45.00,
-		"size": {
-			"1000101": "155(S)",
-			"1000102": "160(M)",
-			"1000103": "165(L)",
-			"1000104": "170(XL)"
-		},
-		"color": {
-			"id": "10001001",
-			"url": "img/color.png"
-		}
+		"goods-id": 10002,
+		"goods-img":"images/p1.jpg",
+		"goods-name": "香奈儿炫亮魅力唇膏丝绒系列 L'EXUBERANTE",
+		"goods-dec": "蕴含透明质酸和甘油，能强效保湿肌肤，并收敛和恢复肌肤弹性。另含多种天然植物精华，可促进血液循环",
+		"goods-style":"3.5 克 #37",
+		"goods-price": 557.00,
+		"goods-sale": 287.00,		
+		"discount": 5.5,
+		"stock":1987
+	},
+	"10003": {
+		"goods-id": 10003,
+		"goods-img":"images/p1.jpg",
+		"goods-name": "香奈儿炫亮魅力唇膏丝绒系列 L'EXUBERANTE",
+		"goods-dec": "蕴含透明质酸和甘油，能强效保湿肌肤，并收敛和恢复肌肤弹性。另含多种天然植物精华，可促进血液循环",
+		"goods-style":"3.5 克 #38",
+		"goods-price": 557.00,
+		"goods-sale": 287.00,		
+		"discount": 5.5,
+		"stock":1987
 	}
 }

@@ -1,0 +1,198 @@
+/*头部*/
+.head{
+	height:82px;
+	background-color:#fff;
+	border-top:1px solid #e5e5e5;
+	position:relative;	
+}
+.head-top{
+	margin-left:86px;
+	padding-top:15px;
+}
+/*logo*/
+.head-top .head-top-left{
+	width:172px;
+	margin-right:100px;
+}
+/*主体*/
+.margin{
+	width:987px;
+    margin:0 auto;	
+}
+.cart-main{
+	position:relative;
+	background-color:#f5f5f5;
+	height:500px;
+}
+.tipall{
+	padding-top:20px;
+}
+.tipall .tip{
+	height: 30px;
+    color: #fff;
+    padding-left: 14px;
+    line-height: 30px;
+    font-size: 12px;
+}
+.tipall .tip:nth-child(1){
+	background-color: #ec3e7d;
+}
+.tipall .tip:nth-child(2){
+	background-color: #ffab2e;
+	margin-top:3px;
+}
+.cart-title{
+	padding:22px 0 22px 0;
+}
+.cart-title .icon{
+	display:block;
+	width:987px;;
+	height:38px;
+	background:url(../images/home-bt.png) no-repeat;
+	background-position:0 -844px;
+}
+.cart-list{
+	background-color:#fff;
+	table-layout: fixed;
+}
+.cart-list thead th:first-child:after {
+    position: absolute;
+    content: '';
+    left: -2px;
+    top: -2px;
+    border-left: 5px solid #ed407e;
+    height: 100%;
+}
+.cart-list thead{
+	border-bottom:1px solid #eee;
+}
+
+.cart-list thead tr{
+	height:37px;
+}
+.cart-list thead th {
+    font-weight: 400;
+    color: #666666;
+    font-size: 14px;
+}
+.cart-list thead th.th1{
+	position:relative;
+	width:201px;
+	padding-left:10px;
+	text-align: left;
+}
+.cart-list thead th.th2{
+	width:376px;
+    text-align: left;
+}
+.cart-list tbody td{
+	
+	margin:0 auto;
+}  
+.cart-table-tad1,
+.cart-table-tad2{
+	text-align:left;
+}
+.cart-table-tad3,
+.cart-table-tad4,
+.cart-table-tad5,
+.cart-table-tad6{
+	text-align: center;
+	width:150px;
+}
+.cart-table-tad1 .pcheckbox{
+	display: inline-block;
+    vertical-align: top;
+    padding-top: 24px;
+    padding-left: 7px; 
+} 
+.cart-table-tad1 .pcheckbox input{
+	width:20px;
+	height:13px;
+}
+.cart-table-tad1 .pimg{
+ 	display: inline-block;
+    width: 100px;
+    height: 100px;
+ }
+.cart-table-tad1 .pimg img{
+    display: block;
+    max-width: 100px;
+    max-height: 100px;
+    overflow: hidden;
+} 
+.cart-table-tad2{
+	padding-top: 25px;
+    padding-bottom: 25px;
+}
+.cart-table-tad2 .cart-table-spec{	
+	padding-top: 10px;
+    color: #b2b2b2;
+}
+.cart-table-tad2 a {
+    color: #666666;
+    vertical-align: middle; 
+}
+
+.quantity a{
+	float: left;
+    width: 20px;
+    height: 21px;
+    overflow: hidden;
+    background: #f4f6f5;
+    text-align: center;
+    font: 14px/22px simsun,serif;
+}  
+.quantity input{
+	float: left;
+    width: 30px;
+    height: 19px;
+    line-height: 19px;
+    border-width: 1px 0;
+    border-style: solid;
+    border-color: #e9e9e9;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+} 
+.cart-table-tad5{
+	color:#ed407e;
+}
+.cart-table-tad6 a{
+	color:#e9e9e9;
+}
+
+/*foot*/
+tfoot .cart-table-tad6{
+	position:relative;
+}
+tfoot .cart-table-tad6 .canpay{
+	position:absolute;
+	width:96px;
+	height:50px;
+	line-height:50px;
+	text-align:center;
+	top:0;
+	right:0;
+	display:inline-block;
+    background-color:#e9e9e9;
+    color:#fff;
+    cursor:not-allowed;
+}
+.gopay{
+	display:inline-block;
+	width:96px;
+	height:50px;
+	line-height:50px;
+	color:#fff;
+	cursor:pointer;
+	background-color:#ed407e;
+}
+
+tfoot .price .num,
+tfoot .quantity .total-price
+{
+	color:#ed407e;
+	font-size:18px;
+	
+}

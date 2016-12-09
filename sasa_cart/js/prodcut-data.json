@@ -1,0 +1,32 @@
+{
+	"10001": {
+		"goods-id": 10001,
+		"goods-name": "香奈儿炫亮魅力唇膏丝绒系列 (3.5 克 #37 L'EXUBERANTE)",
+		"goods-price": 547.00,
+		"goods-sale": 247.00,
+		"size": {
+			"1000101": "images/l1-1.jpg",
+			"1000102": "images/l1-1.jpg",
+			"1000103": "images/l1-1.jpg"
+		},
+		"color": {
+			"id": "10001001",
+			"url": "img/color.png"
+		}
+	},
+	"10002": {
+		"goods-id": 10002,
+		"goods-name": "香奈儿炫亮魅力唇膏丝绒系列 (3.5 克 #37 L'EXUBERANTE)",
+		"goods-price": 547.00,
+		"goods-sale": 247.00,
+		"size": {
+			"1000101": "images/l1-1.jpg",
+			"1000102": "images/l1-1.jpg",
+			"1000103": "images/l1-1.jpg"
+		},
+		"color": {
+			"id": "10001001",
+			"url": "img/color.png"
+		}
+	}
+}
